@@ -29,3 +29,43 @@
 
 **The NumPy ndarray: A Multidimensional Array Object**
 
+* One of the key features of NumPy is its N-dimensional array object, or ndarray
+
+* Fast, flexible container for large datasets in Python
+
+* Refer to Jupyter Notebook "Chapter 4" for examples
+
+* An ndarray is a generic multidimensional container for homogenous data
+
+* In other words, all of the elements must be the same type
+
+* Every array has a *shape*
+
+**Creating ndarrays**
+
+* For code, refer to jupyter notebook
+
+**Data Types for ndarrays**
+
+* The *data type *is a special object containing the information (or *metadata*, data about data) the ndarray needs to interpret a chunk of memory as a particular type of data
+
+* dtypes are a source of NumPy’s flexibility for interacting with data from other systems.
+
+* The numerical dtypes are named the same way: a type name, like *float *or *int*, followed by a number indicating the number of bits per element.
+
+* A standard double-precision floating-point value takes up 8 bytes or 64 bits. 
+
+* Thus, this type is known in NumPy as *float64*
+
+* You can explicitly convert or *cast* an array from one dtype to another using ndarray’s *astype* method
+
+* Calling *astype* always creates a new array (a copy of the data), even if the new dtype is the same as the old type.
+
+**Arithmetic with NumPy Arrays**
+
+* Arrays are important because they enable you to express batch operations on data without any *for *loops.
+
+* NumPy users call this *vectorization*. 
+
+* Any arithmetic operations between equal-size arrays applies the operation element-wise
+
