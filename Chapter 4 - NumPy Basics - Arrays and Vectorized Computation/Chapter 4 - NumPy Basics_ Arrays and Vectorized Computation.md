@@ -69,3 +69,19 @@
 
 * Any arithmetic operations between equal-size arrays applies the operation element-wise
 
+**Basic Indexing and Slicing**
+
+* NumPy array indexing is a rich topic
+
+* You may want to select a subset of your data or individual elements
+
+**Fancy Indexing**
+
+* *Fancy indexing *is a term by NumPy to describe indexing using integer arrays.
+
+* Keep in mind that fancy indexing, unlike slicing, always copies that data into a new array.
+
+**Transposing Arrays and Swapping Axes**
+
+* Transposing is a special form of reshaping that similarly returns a view on the underlying data without copying anything.
+
